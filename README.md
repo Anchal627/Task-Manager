@@ -1,3 +1,7 @@
+
+# Link of Deplyment 
+https://task-manager-rho-lime.vercel.app/
+
 # Task Management App
 
 This is a **Task Management App** built with:
@@ -11,6 +15,10 @@ This is a **Task Management App** built with:
 ✅ Task Creation, Editing, and Deletion  
 ✅ Task Categories: To Do, In Progress, Done, Timeout  
 ✅ Auto-fetching related Twitch streams
+
+
+
+
 
 ```
 
