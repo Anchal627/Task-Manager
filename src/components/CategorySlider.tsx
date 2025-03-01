@@ -27,7 +27,9 @@ const CategorySlider: React.FC<CategorySliderProps> = ({
   useEffect(() => {
     const fetchTasks = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/api/tasks");
+        const response = await axios.get(
+          "https://task-manager-0c3c.onrender.com/api/tasks"
+        );
         setTasks(response.data);
         setLoading(false);
       } catch (err) {

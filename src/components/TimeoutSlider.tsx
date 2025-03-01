@@ -49,9 +49,12 @@ const TimeoutSlider: React.FC<TimeoutSliderProps> = ({
   const deleteTask = async (_id: string) => {
     setTasks((prevTasks) => prevTasks.filter((task) => task._id !== _id));
     try {
-      const response = await fetch(`http://localhost:5000/api/tasks/${_id}`, {
-        method: "DELETE",
-      });
+      const response = await fetch(
+        `https://task-manager-0c3c.onrender.com/api/tasks/${_id}`,
+        {
+          method: "DELETE",
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to delete task");
