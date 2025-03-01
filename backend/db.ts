@@ -1,6 +1,7 @@
 import mongoose from "mongoose";
 
-const mongoURI: string = "mongodb://127.0.0.1:27017/task-manager";
+const mongoURI: string =
+  "mongodb+srv://Anchal:2panwxxjCnw6ds_@cluster0.tccdl.mongodb.net/task-manager?retryWrites=true&w=majority";
 
 const connectToMongo = async (): Promise<void> => {
   try {
