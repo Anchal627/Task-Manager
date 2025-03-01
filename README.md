@@ -1,7 +1,7 @@
 
 # Link of Deplyment 
 
- Frontend:  https://task-manager-rho-lime.vercel.app/ 
+ Frontend:  https://task-manager-nine-khaki.vercel.app/
  
  Backend:   https://task-manager-0c3c.onrender.com
 
